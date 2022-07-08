@@ -1,0 +1,6 @@
+alias gin='pbpaste > in'
+alias goa='go run a.go < in'
+alias gob='go run b.go < in'
+alias goc='go run c.go < in'
+alias god='go run d.go < in'
+alias goe='go run e.go < in'

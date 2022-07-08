@@ -16,3 +16,11 @@ func nextInt() int {
 	}
 	return i
 }
+
+func nextStr() string {
+	sc.Scan()
+	i := sc.Text()
+	return i
+}
+
+func main() {}
