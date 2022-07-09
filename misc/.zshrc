@@ -1,4 +1,4 @@
-alias gin='pbpaste > in'
+alias gin='pbpaste | tee "in"'
 alias goa='go run a.go < in'
 alias gob='go run b.go < in'
 alias goc='go run c.go < in'
