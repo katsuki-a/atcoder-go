@@ -36,22 +36,6 @@ func nextInts(sep string) []int {
 	return i
 }
 
-func intToDigits(i int) []int {
-	d := []int{}
-	for _, c := range strconv.Itoa(i) {
-		d = append(d, int(c)-'0')
-	}
-	return d
-}
-
-func sumSlice(slice []int) int {
-	sum := 0
-	for _, v := range slice {
-		sum += v
-	}
-	return sum
-}
-
 func solve() {}
 
 func main() {}
